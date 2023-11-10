@@ -5,10 +5,10 @@ app.config["DEBUG"] = True #會啟動Flask的Debug模式
 app.config["JSON_AS_ASCII"] = False #解決Flask中文亂碼的問題
 
 
-@app.route("/get", methods=["GET"])
+@app.route("/", methods=["GET"])
 def index():
     print("Hello World")
-    return 
+    return "Hello World - reset"
 
 
 if __name__ == "__main__": #如果以主程式執行
