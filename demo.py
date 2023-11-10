@@ -9,7 +9,7 @@ app.config["JSON_AS_ASCII"] = False #解決Flask中文亂碼的問題
 def index():
     print("Hello World")
 
-    return "Hello World - push ~~???"
+    return "Hello World - pull"
 
 
 if __name__ == "__main__": #如果以主程式執行
