@@ -8,7 +8,11 @@ app.config["JSON_AS_ASCII"] = False #解決Flask中文亂碼的問題
 @app.route("/", methods=["GET"])
 def index():
     print("Hello World")
+<<<<<<< HEAD
     return "Hello World - master 111"
+=======
+    return "Hello World - branch 1"
+>>>>>>> chow
 
 
 if __name__ == "__main__": #如果以主程式執行
