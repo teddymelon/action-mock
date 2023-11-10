@@ -19,4 +19,4 @@ jobs:
     
     - name: 
       run:
-        python demo.py
+        python C:\Users\highercloud01\Desktop\程式設計\Github-action\demo.py
